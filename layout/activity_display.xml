@@ -1,0 +1,71 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kkccbd.Display">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:background="#0000"
+        android:src="@drawable/home" />
+
+
+    <ImageView
+        android:id="@+id/recordButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/recorder" />
+
+
+    <ImageView
+        android:id="@+id/displayImage"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="top|center"
+        android:src="@mipmap/image_1000" />
+
+
+    <ImageView
+        android:id="@+id/rightButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|right"
+        android:src="@drawable/right_arrow" />
+
+    <ImageView
+        android:id="@+id/leftButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|left"
+        android:src="@drawable/left_arrow" />
+
+    <ImageView
+        android:id="@+id/done"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/done" />
+
+    <ImageView
+        android:id="@+id/speakerButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|left"
+        android:src="@drawable/speaker" />
+
+    <ImageView
+        android:id="@+id/displayText"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="240dp"
+        android:layout_gravity="center|center"
+        android:src="@mipmap/text_1000" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kannada Kali</string>
+    <string name="quiza_text">Identify the Object</string>
+    <string name="quizb_text">Identify the Text</string>
+    <string name="quiz_main">Main image</string>
+    <string name="quiz_imagea">Image A</string>
+    <string name="quiz_imageb">Image B</string>
+    <string name="quiz_imagec">Image C</string>
+    <string name="quiz_imaged">Image D</string>
+</resources>

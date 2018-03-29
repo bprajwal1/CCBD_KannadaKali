@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.coms/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/bird"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_bird"
+            android:layout_weight="1.0"
+            />
+
+        <ImageButton
+            android:id="@+id/animal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_animal"
+            android:scaleType="fitCenter"
+            android:layout_weight="1.0"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/fruit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_fruit"
+            android:scaleType="fitCenter"
+            android:layout_weight="1.0"
+
+            />
+
+        <ImageButton
+            android:id="@+id/flower"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_flower"
+            android:scaleType="fitCenter"
+            android:layout_weight="1.0"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/colour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_colour"
+            android:layout_weight="1.0"
+            android:scaleType="fitCenter"
+            android:text="Button" />
+
+        <ImageButton
+            android:id="@+id/quiz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/quiz"
+            android:layout_weight="1.0"
+            android:scaleType="fitCenter"
+            android:text="Button" />
+
+    </LinearLayout>
+
+</LinearLayout>
